@@ -1,0 +1,33 @@
+[user]
+  name = Will Langstroth
+  email = will@langstroth.com
+[alias]
+  st = status -s
+  ci = commit
+  cm = commit -m
+  cam = commit -am
+  co = checkout
+  br = branch
+  ca = commit -av
+  mg = merge --no-ff
+  lo = log --graph
+  lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+  amend = commit --amend
+[color]
+  branch = auto
+  diff = auto
+  interactive = auto
+  status = auto
+[core]
+  editor = /usr/bin/vim
+  excludesfile = ~/.gitignore
+[merge]
+  tool = vimdiff
+[diff]
+  tool = vimdiff
+[branch]
+  autosetupmerge = true
+[apply]
+  whitespace = strip
+[advice]
+  statusHints = false
