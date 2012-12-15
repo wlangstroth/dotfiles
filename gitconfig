@@ -31,3 +31,5 @@
   whitespace = strip
 [advice]
   statusHints = false
+[push]
+	default = simple
