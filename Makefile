@@ -1,6 +1,6 @@
 # Copy the dotfiles into home, with their '.' prefix
 
-all: gemrc
-
-gemrc:
+all:
 	cp gemrc ~/.gemrc
+	cp gitconfig ~/.gitconfig
+	cp gitignore ~/.gitignore

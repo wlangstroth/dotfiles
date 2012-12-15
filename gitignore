@@ -1,0 +1,8 @@
+# OS X
+.DS_Store
+
+# vim
+*.sw[a-z]
+
+# emacs
+*~
