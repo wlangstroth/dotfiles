@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Thanks to Dave Rapin (http://github.com/rapind)
+
 # Ask for the administrator password upfront
 sudo -v
 
