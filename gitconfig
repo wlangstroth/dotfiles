@@ -32,4 +32,4 @@
 [advice]
   statusHints = false
 [push]
-	default = simple
+	default = tracking
