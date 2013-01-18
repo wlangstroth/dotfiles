@@ -37,6 +37,7 @@ export SECRETS_DISK="/Volumes/BACKUP"
 export KEY_PAIR_NAME="mars-deploy-pair"
 export LOCAL_MARS_CHEF="$HOME/src/marsdd/chef-mars"
 export OPSCODE_USER="wlangstroth"
+export ORGNAME="marsdd"
 
 if [ -f $SECRETS_DISK/amazon/aws_access_key_id ]
 then
