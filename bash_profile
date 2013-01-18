@@ -18,10 +18,15 @@ function lookup() {
   open http://duckduckgo.com/html/?q="$@"
 }
 
-export PATH="$HOME/.cabal/bin:usr/local/bin:/usr/local/sbin:/usr/local/share:/usr/local/share/python:$PATH"
-export PATH="$PATH:/usr/local/Cellar/smlnj/110.75/libexec/bin"
-export PATH="$PATH:/usr/local/share/npm/bin"
-export PATH="/usr/local/heroku/bin:$PATH"
+PATH="/usr/bin:/bin:/usr/sbin:/sbin"
+PATH="$HOME/.cabal/bin:$PATH"
+PATH="/usr/local/share/python:$PATH"
+PATH="/usr/local/bin:/usr/local/sbin:/usr/local/share:$PATH"
+PATH="/usr/local/heroku/bin:$PATH"
+PATH="$PATH:/usr/local/Cellar/smlnj/110.75/libexec/bin"
+PATH="$PATH:/usr/local/share/npm/bin"
+
+export PATH
 
 export EDITOR=vim
 export PS1="\W\[\e[0;32m\]\$(__git_ps1)\[\e[0m\] $ "
