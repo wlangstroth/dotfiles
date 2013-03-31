@@ -1,35 +1,39 @@
 [user]
-  name = Will Langstroth
-  email = will@langstroth.com
+    name = Will Langstroth
+    email = will@langstroth.com
 [alias]
-  st = status -s
-  ci = commit
-  cm = commit -m
-  cam = commit -am
-  co = checkout
-  br = branch
-  ca = commit -av
-  mg = merge --no-ff
-  lo = log --graph
-  lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
-  amend = commit --amend
+    a = add -p .
+    amend = commit --amend
+    br = branch
+    ca = commit -av
+    cam = commit -am
+    ci = commit
+    cm = commit -m
+    co = checkout
+    df = diff --word-diff
+    lol = log --pretty=format:"%C(yellow)%h %C(blue)%ad%C(red)%d %C(reset)%s%C(green) [%cn]" --decorate --date=short
+    lo = log --graph
+    lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+    mg = merge --no-ff
+    st = status -s
+    standup = log --since '1 day ago' --oneline --author will@langstroth.com
 [color]
-  branch = auto
-  diff = auto
-  interactive = auto
-  status = auto
+    branch = auto
+    diff = auto
+    interactive = auto
+    status = auto
 [core]
-  editor = /usr/bin/vim
-  excludesfile = ~/.gitignore
+    editor = vim
+    excludesfile = ~/.gitignore
 [merge]
-  tool = vimdiff
+    tool = vimdiff
 [diff]
-  tool = vimdiff
+    tool = vimdiff
 [branch]
-  autosetupmerge = true
+    autosetupmerge = true
 [apply]
-  whitespace = strip
+    whitespace = strip
 [advice]
-  statusHints = false
+    statusHints = false
 [push]
-	default = tracking
+    default = tracking
