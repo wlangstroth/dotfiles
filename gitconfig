@@ -37,3 +37,6 @@
     statusHints = false
 [push]
     default = tracking
+[rerere]
+    enabled = true
+    autoupdate = true
