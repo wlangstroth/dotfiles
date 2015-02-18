@@ -6,7 +6,7 @@ alias la='ls -laGh'
 # -- editors of Note -----------------------------------------------------------
 alias v=vim
 alias vi=vim
-alias e=emacs
+alias e='/usr/local/Cellar/emacs/HEAD/Emacs.app/Contents/MacOS/Emacs -nw'
 
 # -- clever one-liners and helpers ---------------------------------------------
 alias ..='cd ..'
