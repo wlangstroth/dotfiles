@@ -93,6 +93,8 @@ then
 fi
 set completion-ignore-case on
 
+DARCS_DO_COLOR_LINES=1
+
 umask 022
 
 # -- rbenv ---------------------------------------------------------------------
